@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Jamal er ma Pitha Ghar</h1>
+    <form>
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        <label for="number">Phone Number
+           <input type="number"  id="Phone Number" placeholder="Phone Number">
+        </label>
+       
+        <label for="email">Your Email
+            <input id="email" type="Email" placeholder="Your Email">
+        </label>
+        <fieldset>
+            <legend>Pick one pitha</legend>
+            <label for="chitoy">
+              <input type="radio" name="pitha" id="chitoy">
+              chitoy
+            </label>
+            <label for="vapha">
+              <input type="radio" name="pitha" id="vapha">
+              vapha
+            </label>
+            <label for="coconut pitha">
+              <input type="radio" name="pitha" id="coconut pitha">
+              coconut pitha
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>select one or more vortas</legend>
+            <label for="sorisha">
+                <input type="checkbox" name="vorta" id="sorisha">
+                sorisha
+            </label>
+            <label for="shutki">
+                <input type="checkbox" name="vorta" id="shutki">
+                shutki
+            </label>
+            <label for="Daler vorta">
+                <input type="checkbox" name="vorta" id="Daler vorta">
+                Daler vorta
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
